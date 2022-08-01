@@ -1,0 +1,144 @@
+body{
+   margin:0;
+   font-family:Arial, Helvetica, Sans-serif;
+   /*background-color:#3b576d*/
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    align-items:center;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+
+}
+header .logo{
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+}
+header .menu{
+    width:30px;
+    height:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+}
+header .menu--line{
+    height:3px;
+    background-color:#333;
+}
+
+
+.container{
+    display:flex;
+    height:100vh;
+
+}
+.container .leftside{
+    background-color:#3B576D;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex:1;
+    padding-left:0 20px;
+}
+.container .rigthside{
+    background-color:white;
+    background-image:url("../images/hero.jpg");
+    background-size:100% auto;
+    background-position:center top;
+    flex:1;
+}
+.container .info {
+    color:white;
+}
+.container .info .profession{
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:19px;
+}
+.container .info .name{
+    font-weight:bold;
+    font-size:80px;
+    margin-top:10px;
+    margin-bottom:30px;
+
+}
+
+.container .info .buttons a{
+    display:inline-block;
+    background-color:white;
+    color:#3b686d;
+    padding:20px 40px;
+    font-size:16px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bold;
+    box-shadow: 0px 0px 10px #111;
+    border-radius:5px;
+    margin-right:10px;
+}
+.container .info .buttons  a.light{
+    color:white;
+    background-color:#3B576D;
+}
+.container .info .buttons a:hover{
+    opacity:0.7;
+}
+footer{
+    width:50%;
+    font-size:13px;
+    position:fixed;
+    right:0;
+    left:0;
+    bottom:0;
+    padding:20px;
+    color:white;
+}
+footer a {
+    color:white;
+    text-decoration:none;
+}
+
+@media  (max-width:850px){
+    header{
+        position:initial;
+        background-color:#3B576D;
+
+        
+    }
+    header .menu--line{
+        background-color:white;
+    }
+    .container{
+        flex-direction:column;
+    }
+    .container .leftside{
+        flex:none;
+        padding:30px 20px;
+        text-align:center;
+    }
+    footer{
+        width:90vw;
+        position:initial;
+        color:#333;
+        font-size:16px;
+    }
+    footer a {
+        color:#333
+    }
+}
+@media (max-width:449px){
+    .container .leftside .info .name{
+        font-size:50px;
+    }
+    .container .leftside .info .buttons a{
+        display:block;
+        margin-right:0;
+        margin-bottom:20px;
+    }
+}

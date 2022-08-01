@@ -1,0 +1,166 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+.lupa{ /**/
+    width: 36px;
+    height: 34px;
+    background-image:url("../imagem/lupa.jpg");
+    background-size: contain;
+    border: none;
+}
+input{
+    background-image:url("../imagem/teclado.png");
+    background-position-x: right;
+    background-repeat:no-repeat;
+    background-size: contain;
+    width: 550px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #00000026;
+    box-shadow:  -6px 3px 13px 3px #0000001a;
+}
+.lupa img{
+    width:20px;
+    height:20px;
+}
+.menu{
+        width: 20px;
+        height: 20px;
+}
+.carinha{
+    width:30px;
+    height:30px;
+}
+.meio,.centralizarinput{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.menuesorriso{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+
+}
+.meio div{
+    padding:10px;
+}
+.menu{
+    padding-right: 10px;
+    margin-bottom: 7px;
+}
+.logogoogle1{
+}
+.logogoogle{
+    display: flex;
+    justify-content: left;
+}
+.meio a{
+    text-decoration:none;
+    color:#5f6368;
+}
+.crescer{
+    flex:1;
+}
+.centralizarinput{
+    padding-left: 30px;
+}
+.meio{
+    display: inline-flex;
+
+}
+.centralizar1{
+    text-align: start;
+    padding-left: 140px;
+    border-bottom:1px solid #cac9c9be;
+    padding-bottom: 10px;
+}
+section{
+    width:580px;
+}
+.resultado
+{
+    width: 580px;
+    padding-top: 10px;
+}
+.flexibilizar{
+    position: relative;
+    left: 180px;
+}
+.resultado a{
+    color:#1a0dab;
+    text-decoration:none;
+    font-size:20px;
+}
+.resultado a:hover{
+    text-decoration:underline;
+}
+.texto{
+    font-size:14px;
+}
+.link{
+    font-size:14px;
+}
+
+.footer1{
+    border-top:1px solid #cac9c9;
+    background-color:#F2F2F2 ;
+    padding: 11px 0px 33px 17px;
+    margin: 1px 9px 1px -8px;
+}
+.footer1 a{
+    color:#3c4043;
+    text-decoration:none;
+    font-size:15px;
+    padding:10px;
+    position: relative;
+    left: 170px;
+}
+.footer1 a:hover{
+    color:#000000;
+}
+.mudapag{
+    position:relative;
+    left:210px;
+    width: 50px;
+}
+@media screen and  (max-width:860px) {
+    .flexibilizar {
+        left:50px;
+    }
+    .mudapag{
+        left:50px;
+    }
+    .footer1 a {
+        left:50px;
+    }
+    input{
+        width:400px
+    }
+    .crescer{
+        display: none;
+    }
+@media screen and (max-width:800px){
+}
+.flexibilizar {
+    left:0px;
+}
+.mudapag{
+    left:0px;
+}
+.footer1 a {
+    left:0px;
+}
+input{
+    width:400px
+}
+.crescer{
+    display: none;
+}
+.centralizar1{
+    padding-left: 0px;
+
+}
+/*#F2F2F2*/}

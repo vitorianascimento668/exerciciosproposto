@@ -1,0 +1,127 @@
+body{
+    background-color: white;
+    font-family:arial;
+    height: 100%;
+}
+.direito{
+    display:flex;
+    justify-content:right;
+}
+.emailefoto{
+    padding: 12px 0px 1px 10px;
+    font-size:13px;
+    display:flex;
+}
+#carinha{
+    margin-top: 9px;
+    margin-left: 10px;
+}
+.emailefoto a{
+    color:black;
+    text-decoration:none;
+    
+}
+.emailefoto a:hover{
+    text-decoration:underline;
+}
+.centralizar{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.logoebotao{
+    padding: 25px 40px 0px 10px;}
+ #pesquisa{
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid #00000021;
+    height: 26px;
+
+}
+input{
+    background-image:url('../imagem/teclado.png') ;     
+    background-position: right;
+    background-size:contain;
+    background-repeat: no-repeat;
+    /*    background-image: url(../imagem/logo.png); outra imagem do microfone que eu nao consegir coloca, uma ao lado da outra.*/
+
+}
+
+button{
+    background-color:#f6f6f8;
+    border:none;
+    padding: 10px;
+    margin-left:5px;
+    font-size:13px;
+    
+}
+button a {
+    text-decoration:none;
+    color:black;
+}
+button:hover{
+    border:1px solid rgba(0, 0, 0, 0.164);
+    border-radius:5px;
+}
+.nd{
+    height: 250px;}
+
+footer{
+    background-color:#F2F2F2;
+    margin: 1px -8px -1px -4px;
+    height: 85px;
+    color:#70757a;
+
+}
+.brasil{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding-left:10px;
+    margin-bottom: -45px;
+    background-color:#F2F2F2;
+    border-bottom: 1px solid #0000002c;
+
+
+}
+.texbrasil{
+    margin-top: 20px;
+
+}
+    
+.primeiroroda,.segundaroda,.footeprincipal{
+    display:flex;
+    justify-content:space-between
+}
+.primeiroroda,.segundaroda{
+    padding-top: 63px;}
+    .footeritens{
+    padding-right:10px;
+    padding-left:10px;
+    
+}
+footer a {
+    color:#70757a;
+    text-decoration:none;
+
+}
+footer a:hover {
+    color:#646668;
+    text-decoration:underline;
+
+}
+@media screen and (max-width:784px){
+    .nd{
+        height: 150px;
+    }
+    .primeiroroda,.segundaroda,.footeprincipal{
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        padding-top: 33px;
+    }
+    .footeprincipal{
+        height:auto;
+    }
+}

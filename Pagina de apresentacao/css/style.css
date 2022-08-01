@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Erica';
+    src: url('../swiss-721-black.otf');
+}
+*{
+    font-family:(Arial, Helvetica, sans-serif);
+}
+html{
+    width: 1333px;
+}
+body{
+    background-color:#EC72A8;
+
+}
+header{
+    background-color:#EC72A8;
+    text-align: center;
+    padding: 33px 47px;
+    margin: -10px -9px;
+    min-width:650px;
+    max-width: 900px;
+}
+.nav1{
+    display: flex;
+    justify-content: space-evenly;
+    align-content:center;
+    flex:1;
+    text-align: center;
+
+
+}
+nav{
+    display:flex;
+    color:white;
+    font-size: 16px;
+}
+.imgsection{
+    width:1351px;
+}
+.primeiraimg{
+    position: relative;
+    right: 10px;
+    width:1351px;
+    background-color: white;
+    padding-bottom:40px;
+    
+}
+.borda{
+    padding-bottom:40px;
+    border-bottom:1px solid #00000023;
+}
+.paragrafo{
+    background-color:white;
+    padding:1px 0px 10px 10px;
+    margin: -1px -24px 1px -5px;
+    text-align:center;
+    font-size:30px;
+    color:#EC72A8;
+    font-weight:bold;
+    font-family:'Erica';
+}
+.rosa{
+    background-color:#EC72A8;
+    width:50%;
+    margin: -1px -23px -8px -1px;
+
+}
+
+.roxo{
+    background-color:#B17CE1;
+    width:50%;
+    padding:20px;
+    margin: -1px -23px -8px -1px;
+}
+.imggummycombo{
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+    height: 106px;
+}
+#logomodif{
+    width: 200px;
+    height: 50px;
+    margin-top: 21px;
+}
+#bordanaimg{
+    border-radius: 30px;
+    width: 1200px;
+
+}
+.imgcomborda{
+    background-color:white;
+    padding-top:50px;
+    text-align:center;
+
+}
+.tataeandressa{
+    text-align:center;
+    background-color:#72B6F4;
+    padding-top: 20px;
+    color:white;
+    font-family:'Erica';
+
+}
+.ta{
+    background-color:white;
+    padding:5px;
+    margin-left: 20px;
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-content:center;
+    color: white;
+    font-weight:bolder;
+    
+}
+footer a {
+    text-decoration:none;
+    color:white;
+    margin: 16px 0px 11px 0px;
+}
+@media (max-width:1000px){
+    header{
+        max-width: 700px;
+    }
+    .imgsection,.primeiraimg,footer
+     {
+        width: 958px;}
+    .paragrafo{
+        width:943px;
+    }
+    .imggummycombo{
+        width:925px;
+    }
+    html{
+        width:960px
+    }
+
+}
+
+@media (max-width:900px){
+    header{
+        max-width: 500px;
+    }
+    .imgsection,.primeiraimg,footer
+     {
+        width: 858px;}
+    .paragrafo{
+        width:843px;
+    }
+    .imggummycombo{
+        width:825px;
+    }
+    html{
+        width:860px
+    }
+
+}
+@media (max-width:850px){
+    header{
+        max-width: 400px;
+    }
+    .imgsection,.primeiraimg,footer
+     {
+        width: 758px;}
+    .paragrafo{
+        width:743px;
+    }
+    .imggummycombo{
+        width:725px;
+    }
+    html{
+        width:760px
+    }
+
+}
+@media (max-width:774px){
+    header{
+        max-width: 300px;
+    }
+    .imgsection,.primeiraimg,footer
+     {
+        width: 658px;}
+    .paragrafo{
+        width:643px;
+    }
+    .imggummycombo{
+        width:625px;
+    }
+    html{
+        width:660px
+    }
+
+}
+@media (max-width:685px){
+    header{
+        display: none;
+    }
+    .imgsection,.primeiraimg,footer
+     {
+        width: 659px;}
+    .paragrafo{
+        width:643px;
+    }
+    .imggummycombo{
+        width:625px;
+    }
+    html{
+        width:500px
+    }
+    .nav1{
+        display: none;
+    }
+
+
+}
+
+

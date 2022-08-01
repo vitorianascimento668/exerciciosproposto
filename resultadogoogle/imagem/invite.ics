@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:E. South America Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Nayara Sabrina de Brito Almeida (P):mailto:nayara.almeida@prse
+ rvicos.com.br
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Renato Man
+ etta Bernardino:mailto:renato.bernardino@f1rst.com.br
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=vitorianas
+ cimentoesilva9@gmail.com:mailto:vitorianascimentoesilva9@gmail.com
+DESCRIPTION:ATENÇÃO: Este e-mail é de um remetente externo à organizaç
+ ão. Não clique em links ou abra anexos\, a menos que reconheça o remete
+ nte e confirme que o conteúdo é seguro.\nOlá\, tudo bem?\n\nConforme co
+ mbinamos\, segue link para o bate-papo de segunda-feira 06/06 09h30.\n\nAb
+ raços\n\n________________________________________________________________
+ ________________\nReunião do Microsoft Teams\nIngressar no seu computador
+  ou aplicativo móvel\nClique para ingressar na reunião<https://teams.mic
+ rosoft.com/l/meetup-join/19%3ameeting_NjlmYTNmOGItYzhlYy00YzJjLThhYmQtNjk5
+ MTViZDEzYTIy%40thread.v2/0?context=%7b%22Tid%22%3a%2235595a02-4d6d-44ac-99
+ e1-f9ab4cd872db%22%2c%22Oid%22%3a%22e69e2228-a902-45ef-b714-c6fdbc7782f8%2
+ 2%7d>\nIngressar em um dispositivo de videoconferência\nteams@sgt.santand
+ er.com<mailto:teams@sgt.santander.com>\nID de Vídeo Conferência: 129 982
+  539 9\nInstruções VTC Alternativas<https://pexip.me/teams/sgt.santander
+ .com/1299825399>\n[http://www.santander.com/content/dam/santander-com/imag
+ es/misc/logo_letters.png]\nSaiba mais<https://aka.ms/JoinTeamsMeeting> | O
+ pções de reunião<https://teams.microsoft.com/meetingOptions/?organizerI
+ d=e69e2228-a902-45ef-b714-c6fdbc7782f8&tenantId=35595a02-4d6d-44ac-99e1-f9
+ ab4cd872db&threadId=19_meeting_NjlmYTNmOGItYzhlYy00YzJjLThhYmQtNjk5MTViZDE
+ zYTIy@thread.v2&messageId=0&language=pt-BR>\n_____________________________
+ ___________________________________________________\n\n\n_________________
+ _______________\n\nEssa mensagem e seus anexos podem conter informações 
+ confidenciais e/ou legalmente protegidas\, inclusive por sigilo bancário\
+ , sigilo profissional ou lei de proteção de dados pessoais. O seu uso é
+  exclusivo para seu(s) destinatário(s) ou pessoas expressamente autorizad
+ as a recebê-la. Se você recebeu esta mensagem por engano\, por favor avi
+ se imediatamente ao remetente respondendo o e-mail e\, em seguida\, apague
+  a mensagem e seus anexos. É proibido o uso\, a divulgação ou a disponi
+ bilização de tais informações a terceiros.\n\nO descumprimento das ori
+ entações expostas sujeitará o responsável às penalidades civis e crim
+ inais cabíveis.\n\nThis e-mail and its attachments may contain confidenti
+ al and/or legally protected information\, including banking secrecy\, prof
+ essional secrecy or Personal Data Privacy Laws. It is intended solely for 
+ the use of the individual or entity to whom they are addressed. Please not
+ ify the sender immediately by email if you have received this message by m
+ istake and delete this email and its attachments from your system. The use
+ \, disclosure or sharing of such information to third parties is prohibite
+ d.\n\nNon-compliance with the exposed turns the responsible liable to civi
+ l and criminal penalties.\n
+UID:040000008200E00074C5B7101A82E0080000000030AAA3458177D801000000000000000
+ 01000000060C31FE787B1D748AA099DCB5515F5D1
+SUMMARY;LANGUAGE=pt-BR:Entrevista individual - Programa de Estágio Santand
+ er 2022
+DTSTART;TZID=E. South America Standard Time:20220606T093000
+DTEND;TZID=E. South America Standard Time:20220606T100000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20220603T223842Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=pt-BR:Reunião do Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-1824299034
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_NjlmYTNmOGItYzhlYy00YzJjLThhYmQtNjk5MTViZDEzYTIy%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%2235595a02-4d6d-44ac-99e1-f9ab4cd872db%22%2c%22O
+ id%22%3a%22e69e2228-a902-45ef-b714-c6fdbc7782f8%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/35595a02-4d6d-44ac-99e1-f9ab4cd872db/e69e2228-a902-45ef-b714-c
+ 6fdbc7782f8/19_meeting_NjlmYTNmOGItYzhlYy00YzJjLThhYmQtNjk5MTViZDEzYTIy@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_NjlmYTNmOGItYzhlYy00YzJ
+ jLThhYmQtNjk5MTViZDEzYTIy@thread.v2"\,"private":true\,"type":0\,"mid":0\,"
+ rid":0\,"uid":null}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:X267543@prservicos.com.br\;gruu\
+ ;opaque=app:conf:focus:id:teams:2:0!19:meeting_NjlmYTNmOGItYzhlYy00YzJjLTh
+ hYmQtNjk5MTViZDEzYTIy-thread.v2!e69e2228a90245efb714c6fdbc7782f8!35595a024
+ d6d44ac99e1f9ab4cd872db
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Reunião do Microsoft Teams"\, "
+ LocationAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "
+ LocationUri" : "" } ]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

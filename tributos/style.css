@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    background-color:#0258C7;
+}
+
+header,div,.fotoprincipaltexto,
+.descricao,
+.galeria,
+.timeline{
+    max-width: 900px;
+    min-width:450px;
+    margin: auto;
+
+}
+header{
+    padding:15px;
+}
+header p{
+    color: white;
+    font-size:17px;
+}
+header h1{
+    color: white;
+    font-weight:bold;
+    font-size:30px;
+    font-family:monospace
+}
+p{
+    line-height:30px;
+}
+.legenda,.fotoprincipal{
+    width:400px;
+    margin:auto;
+    background-color: white;
+    margin-bottom:10px;
+    padding: 10px;
+}
+.fotoprincipal{
+    margin-bottom: -5px;
+}
+.fotoprincipaltexto,.galeria{
+    padding-top: 30px;
+    border:solid 2px   rgba(0, 0, 0, 0.445);
+    background-color:#FCA603 ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#001B3D;
+
+}
+.descricao,.timeline{
+    border:solid 2px   #E6AE47;
+    background-color:white  ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#001B3D;
+}
+.galeria h1{
+    color: black;
+    font-weight: bold;
+    margin-top:-10px;
+}
+
+.div2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fotos,.fotos1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.timeline{
+    margin:auto
+}
+#ftgrande{
+    width: 300px;
+}
+a{
+    text-decoration:none;
+    color:#001B3D
+}
+ul{
+    display: inline-block;
+    text-align:justify;
+}
+li{
+    list-style-type:"🔷";
+    padding-bottom: 5px;
+    
+}
+.footerimg,.footerimg1{
+    width: 50px;
+    height: 50px;
+}
+footer p{
+    color:white;
+    line-height: 0px;
+    padding-bottom: 7px;
+}
+
+
+@media screen and (min-width:826px) and (max-width:920px) {
+    header, div, .fotoprincipaltexto, .descricao, .galeria, .timeline {
+        min-width: 300px;
+     }
+}
+@media screen and (min-width:670px) and (max-width:830px) {
+    .fotos,.fotos1{
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    .fotos,.fotos1 img{
+        width: 200px;}
+    .fotos img{
+        width:200px
+    }
+    #ftgrande{
+        width: 200px;
+    }
+    header, div, .fotoprincipaltexto, .descricao, .galeria, .timeline {
+        min-width: 300px;
+     }
+}
+@media screen and (max-width:670px) {
+    .fotos,.fotos1{
+        display: block;
+
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+     img{
+       padding:10px}
+
+
+    }

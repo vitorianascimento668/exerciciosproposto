@@ -1,0 +1,43 @@
+body{
+    background-color:#464D6A;
+    color:white
+}
+menu{
+    background-color:#353B51;
+    width:350px;
+    height:400px;
+    margin:auto;
+}
+
+h1,p{
+    text-align:justify;
+}
+input{
+    background-color:#353B51;
+    border: none;
+    text-decoration:underline;
+    outline: none;
+}
+
+.botao{
+    padding: 10px;
+    background-color:#A13954 ;
+    width:300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+ a ,.esqueci a{
+    color:white;
+    text-decoration:none;
+
+}
+#h1{
+    text-decoration:underline;
+    font-weight:normal;
+    line-height: 100px;
+}
+.esqueci{
+    text-align:center;
+}
